@@ -1,0 +1,22 @@
+=== Memory Simulator CLI ===
+Commands: malloc <size>, free <ptr>, stats, dump, help, exit
+> name for pointer: [OK] a = 0x7fff3dcf3968
+> > name for pointer: [OK] b = 0x7fff3dcf39c0
+> > name for pointer: [OK] c = 0x7fff3dcf3a18
+> > [MISS] a at 0x7fff3dcf3968
+> [MISS] b at 0x7fff3dcf39c0
+> [MISS] c at 0x7fff3dcf3a18
+> [HIT] b at 0x7fff3dcf39c0
+> [HIT] b at 0x7fff3dcf39c0
+> [HIT] b at 0x7fff3dcf39c0
+> === Cache Stats ===
+L1: Hits=3 Misses=3 HitRate=50% Latency=1 cycles
+L2: Hits=0 Misses=3 HitRate=0% Latency=5 cycles
+L3: Hits=0 Misses=3 HitRate=0% Latency=20 cycles
+Total Accesses: 6
+Average Memory Access Time (AMAT): 63.5 cycles
+> [GC] Checking for leaked variables... 
+[GC] freeing c ->0x7fff3dcf3a18
+[GC] freeing b ->0x7fff3dcf39c0
+[GC] freeing a ->0x7fff3dcf3968
+[GC] done 

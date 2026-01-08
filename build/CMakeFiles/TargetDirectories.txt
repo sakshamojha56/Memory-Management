@@ -1,0 +1,3 @@
+/home/tanmay/projects/MMA/build/CMakeFiles/memory_manager.dir
+/home/tanmay/projects/MMA/build/CMakeFiles/edit_cache.dir
+/home/tanmay/projects/MMA/build/CMakeFiles/rebuild_cache.dir

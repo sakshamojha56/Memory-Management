@@ -1,0 +1,14 @@
+malloc 64
+a
+malloc 64
+b
+malloc 64
+c
+access a
+access b
+access c
+access b
+access b
+access b
+cachestats
+exit

@@ -1,0 +1,6 @@
+malloc 64
+name a
+access a
+access a
+cachestats
+exit

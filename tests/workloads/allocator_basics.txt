@@ -1,0 +1,9 @@
+strategy first
+malloc 128
+name a
+malloc 256
+name b
+stats
+free a
+stats
+exit

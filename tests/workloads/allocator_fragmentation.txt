@@ -1,0 +1,12 @@
+strategy best
+malloc 200
+name x
+malloc 300
+name y
+malloc 100
+name z
+free y
+stats
+free x
+stats
+exit

@@ -1,0 +1,4 @@
+strategy best
+stress 50 512
+cachestats
+exit
